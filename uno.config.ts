@@ -26,6 +26,6 @@ export default defineConfig({
 	shortcuts: {
 		'text-primary': 'text-white',
 		'text-muted': 'text-white/70',
-		container: 'max-w-6xl lg:max-w-7xl px-2 md:gap-12 md:px-8 mx-auto',
+		container: 'max-w-6xl lg:max-w-7xl px-4 md:gap-12 sm:px-6 mx-auto',
 	},
 });
