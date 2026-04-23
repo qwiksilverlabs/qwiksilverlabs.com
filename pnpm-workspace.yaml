@@ -15,6 +15,7 @@ catalogs:
     '@builder.io/qwik-city': '^1.19.2'
     '@iconify-json/carbon': '^1.2.20'
     'unocss': '^66.6.8'
+    'taze': '^19.11.0'
   lint:
     'oxfmt': '^0.45.0'
     'oxlint': '^1.61.0'
