@@ -1,0 +1,15 @@
+{
+	"emmet.includeLanguages": {
+		"typescriptreact": "html"
+	},
+	"emmet.preferences": {
+		"output.selfClosingStyle": "xhtml"
+	},
+	"editor.defaultFormatter": "oxc.oxc-vscode",
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.oxc": "explicit"
+	},
+	"js/ts.tsdk.path": "node_modules/typescript/lib"
+}

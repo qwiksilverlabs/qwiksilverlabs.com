@@ -1,0 +1,24 @@
+allowBuilds:
+  '@parcel/watcher': true
+  deasync: true
+  esbuild: true
+  sharp: true
+  vercel: true
+
+catalogs:
+  build:
+    'vite': '^7.3.2'
+    'vite-tsconfig-paths': '^4.3.2'
+  dev:
+    '@builder.io/qwik': '^1.19.2'
+    '@builder.io/qwik-city': '^1.19.2'
+    '@iconify-json/carbon': '^1.2.20'
+  lint:
+    'oxfmt': '^0.45.0'
+    'oxlint': '^1.60.0'
+    'oxlint-plugin-qwik': '^0.0.8'
+    'oxlint-tsgolint': '^0.21.1'
+  types:
+    '@types/node': '20.19.0'
+    'typescript': '5.4.5'
+    'typescript-plugin-css-modules': 'latest'
