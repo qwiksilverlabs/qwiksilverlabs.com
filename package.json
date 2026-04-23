@@ -36,7 +36,7 @@
 		"vite-tsconfig-paths": "catalog:build"
 	},
 	"engines": {
-		"node": ">=21"
+		"node": ">=22"
 	},
 	"packageManager": "pnpm@10.33.2"
 }
