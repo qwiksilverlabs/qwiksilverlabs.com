@@ -25,6 +25,9 @@ catalogs:
     '@iconify-json/carbon':
       specifier: ^1.2.20
       version: 1.2.20
+    ignore:
+      specifier: ^7.0.5
+      version: 7.0.5
     taze:
       specifier: ^19.11.0
       version: 19.11.0
@@ -71,6 +74,9 @@ importers:
       '@types/node':
         specifier: catalog:types
         version: 20.19.0
+      ignore:
+        specifier: catalog:dev
+        version: 7.0.5
       oxfmt:
         specifier: catalog:lint
         version: 0.45.0
@@ -2446,6 +2452,10 @@ packages:
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
+
+  ignore@7.0.5:
+    resolution: {integrity: sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==}
+    engines: {node: '>= 4'}
 
   image-size@0.5.5:
     resolution: {integrity: sha512-6TDAlDPZxUFCv+fuOkIoXT/V/f3Qbq8e37p+YOiYrUv3v9cc3/6x78VdfPgFVaB9dZYeLUfKgHRebpkm/oP2VQ==}
@@ -5824,6 +5834,8 @@ snapshots:
   icss-utils@5.1.0(postcss@8.5.10):
     dependencies:
       postcss: 8.5.10
+
+  ignore@7.0.5: {}
 
   image-size@0.5.5:
     optional: true

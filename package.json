@@ -22,6 +22,7 @@
 		"@builder.io/qwik-city": "catalog:dev",
 		"@iconify-json/carbon": "catalog:dev",
 		"@types/node": "catalog:types",
+		"ignore": "catalog:dev",
 		"oxfmt": "catalog:lint",
 		"oxlint": "catalog:lint",
 		"oxlint-plugin-qwik": "catalog:lint",
