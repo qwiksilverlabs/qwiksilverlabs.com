@@ -14,7 +14,8 @@
 		"lint:fix": "oxlint --fix",
 		"preview": "qwik build preview && vite preview --open",
 		"start": "vite --open --mode ssr",
-		"qwik": "qwik"
+		"qwik": "qwik",
+		"up": "taze"
 	},
 	"devDependencies": {
 		"@builder.io/qwik": "catalog:dev",
@@ -25,6 +26,7 @@
 		"oxlint": "catalog:lint",
 		"oxlint-plugin-qwik": "catalog:lint",
 		"oxlint-tsgolint": "catalog:lint",
+		"taze": "^19.11.0",
 		"typescript": "catalog:types",
 		"typescript-plugin-css-modules": "catalog:types",
 		"unocss": "catalog:dev",
