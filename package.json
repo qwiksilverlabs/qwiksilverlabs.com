@@ -30,6 +30,7 @@
 		"typescript": "catalog:types",
 		"typescript-plugin-css-modules": "catalog:types",
 		"unocss": "catalog:dev",
+		"vercel": "catalog:build",
 		"vite": "catalog:build",
 		"vite-tsconfig-paths": "catalog:build"
 	},
