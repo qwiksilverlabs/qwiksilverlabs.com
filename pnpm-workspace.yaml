@@ -16,7 +16,7 @@ catalogs:
     'unocss': '^66.6.8'
   lint:
     'oxfmt': '^0.45.0'
-    'oxlint': '^1.60.0'
+    'oxlint': '^1.61.0'
     'oxlint-plugin-qwik': '^0.0.8'
     'oxlint-tsgolint': '^0.21.1'
   types:
