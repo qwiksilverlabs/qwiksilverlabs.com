@@ -7,7 +7,6 @@
 		"build.preview": "vite build --ssr src/entry.preview.tsx",
 		"build.server": "qwik check-client src dist && vite build -c adapters/vercel-edge/vite.config.ts",
 		"build.types": "tsc --incremental --noEmit",
-		"deploy": "vercel deploy",
 		"dev": "vite --mode ssr",
 		"dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
 		"fmt": "oxfmt",
@@ -29,7 +28,6 @@
 		"typescript": "catalog:types",
 		"typescript-plugin-css-modules": "catalog:types",
 		"unocss": "catalog:dev",
-		"vercel": "catalog:build",
 		"vite": "catalog:build",
 		"vite-tsconfig-paths": "catalog:build"
 	},
