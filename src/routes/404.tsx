@@ -1,5 +1,5 @@
 import { component$ } from '@builder.io/qwik';
-import { useNavigate } from '@builder.io/qwik-city';
+import { DocumentHead, useNavigate } from '@builder.io/qwik-city';
 
 export default component$(() => {
 	const navigate = useNavigate();
@@ -18,3 +18,7 @@ export default component$(() => {
 		</div>
 	);
 });
+
+export const head: DocumentHead = {
+	title: '404 - Page Not Found',
+};
