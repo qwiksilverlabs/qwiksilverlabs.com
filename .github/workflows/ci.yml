@@ -18,4 +18,4 @@ jobs:
           cache: true
 
       - run: vp install
-      - run: vpr lint
+      - run: vp check
