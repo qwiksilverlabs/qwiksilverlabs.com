@@ -12,7 +12,6 @@
 		"preview": "qwik build preview && vp preview --open",
 		"start": "vp dev --open --mode ssr",
 		"qwik": "qwik",
-		"up": "taze",
 		"prepare": "vp config"
 	},
 	"devDependencies": {
@@ -22,7 +21,6 @@
 		"@types/node": "catalog:types",
 		"ignore": "catalog:dev",
 		"oxlint-plugin-qwik": "catalog:lint",
-		"taze": "catalog:dev",
 		"typescript": "catalog:types",
 		"typescript-plugin-css-modules": "catalog:types",
 		"unocss": "catalog:dev",
