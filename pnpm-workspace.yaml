@@ -7,7 +7,7 @@ allowBuilds:
 
 catalogs:
   build:
-    'vite': '^7.3.2'
+    'vite': npm:@voidzero-dev/vite-plus-core@latest
     'vite-tsconfig-paths': '^4.3.2'
     'vercel': '^52.0.0'
   dev:
@@ -18,11 +18,22 @@ catalogs:
     'taze': '^19.11.0'
     'ignore': '^7.0.5'
   lint:
-    'oxfmt': '^0.45.0'
-    'oxlint': '^1.61.0'
     'oxlint-plugin-qwik': '^0.0.8'
-    'oxlint-tsgolint': '^0.21.1'
   types:
     '@types/node': '20.19.0'
     'typescript': '5.4.5'
     'typescript-plugin-css-modules': 'latest'
+catalog:
+  vite: npm:@voidzero-dev/vite-plus-core@latest
+  vitest: npm:@voidzero-dev/vite-plus-test@latest
+  vite-plus: latest
+overrides:
+  vite: 'catalog:'
+  vitest: 'catalog:'
+peerDependencyRules:
+  allowAny:
+    - vite
+    - vitest
+  allowedVersions:
+    vite: '*'
+    vitest: '*'
