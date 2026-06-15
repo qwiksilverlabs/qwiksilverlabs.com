@@ -21,7 +21,7 @@
 			"@components/*": ["./src/components/*"],
 			"@assets/*": ["./src/assets/*"]
 		},
-		"types": ["vite/client"],
+		"types": ["vite-plus/client"],
 		"plugins": [
 			{
 				"name": "typescript-plugin-css-modules"

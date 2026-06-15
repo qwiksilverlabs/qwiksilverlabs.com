@@ -1,10 +1,49 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite-plus';
 import { qwikVite } from '@builder.io/qwik/optimizer';
 import { qwikCity } from '@builder.io/qwik-city/vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import unoCSS from 'unocss/vite';
+import { strict } from 'oxlint-plugin-qwik/ruleset';
 
 export default defineConfig({
+	staged: {
+		'*': 'vp check --fix',
+	},
+	fmt: {
+		useTabs: true,
+		tabWidth: 4,
+		printWidth: 100,
+		endOfLine: 'lf',
+		bracketSameLine: true,
+		singleQuote: true,
+		ignorePatterns: ['dist/**', 'node_modules/**', '**/index.json'],
+		overrides: [
+			{
+				files: ['*.yml', '*.yaml', '*.md'],
+				options: {
+					tabWidth: 2,
+					useTabs: false,
+				},
+			},
+		],
+	},
+	lint: {
+		extends: [strict],
+		jsPlugins: [
+			{ name: 'vite-plus', specifier: 'vite-plus/oxlint-plugin' },
+			'oxlint-plugin-qwik',
+		],
+		rules: { 'vite-plus/prefer-vite-plus-imports': 'error' },
+		options: { typeAware: true, typeCheck: true },
+		overrides: [
+			{
+				files: ['**/*.tsx'],
+				rules: {
+					'qwik/jsx-img': 'off',
+				},
+			},
+		],
+	},
 	plugins: [unoCSS(), qwikCity(), qwikVite(), tsconfigPaths({ root: '.' })],
 	optimizeDeps: {
 		exclude: [],
@@ -29,13 +68,11 @@ export default defineConfig({
 
 	server: {
 		headers: {
-			// Don't cache the server response in dev mode
 			'Cache-Control': 'public, max-age=0',
 		},
 	},
 	preview: {
 		headers: {
-			// Do cache the server response in preview (non-adapter production build)
 			'Cache-Control': 'public, max-age=600',
 		},
 	},
