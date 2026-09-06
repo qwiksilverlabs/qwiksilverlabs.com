@@ -28,7 +28,7 @@ catalogs:
       version: 1.2.26
     ignore:
       specifier: ^7.0.5
-      version: 7.0.5
+      version: 7.0.8
     unocss:
       specifier: ^66.6.8
       version: 66.6.8
@@ -69,7 +69,7 @@ importers:
         version: 20.19.0
       ignore:
         specifier: catalog:dev
-        version: 7.0.5
+        version: 7.0.8
       oxlint-plugin-qwik:
         specifier: catalog:lint
         version: 0.0.8
@@ -2869,8 +2869,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  ignore@7.0.5:
-    resolution: {integrity: sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==}
+  ignore@7.0.8:
+    resolution: {integrity: sha512-YYNsSlXBjMk92SKnkwvB5LOVSa6OznlFUGcsvrFgNJbJCd0M1XKeFVRc8ZByeCqz32FivYNHJVooLmdqrmvp/Q==}
     engines: {node: '>= 4'}
 
   image-size@0.5.5:
@@ -6647,7 +6647,7 @@ snapshots:
     dependencies:
       postcss: 8.5.28
 
-  ignore@7.0.5: {}
+  ignore@7.0.8: {}
 
   image-size@0.5.5:
     optional: true
