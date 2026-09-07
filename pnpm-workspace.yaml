@@ -20,7 +20,7 @@ catalogs:
     'oxlint-plugin-qwik': '^0.0.9'
   types:
     '@types/node': '20.19.43'
-    'typescript': '5.4.5'
+    'typescript': '5.9.3'
     'typescript-plugin-css-modules': 'latest'
 catalog:
   vite: npm:@voidzero-dev/vite-plus-core@latest
