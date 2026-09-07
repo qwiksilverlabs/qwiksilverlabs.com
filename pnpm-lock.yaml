@@ -22,7 +22,7 @@ catalogs:
       version: 1.19.2
     '@builder.io/qwik-city':
       specifier: ^1.19.2
-      version: 1.19.2
+      version: 1.20.0
     '@iconify-json/carbon':
       specifier: ^1.2.20
       version: 1.2.26
@@ -60,7 +60,7 @@ importers:
         version: 1.19.2(@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))
       '@builder.io/qwik-city':
         specifier: catalog:dev
-        version: 1.19.2(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(rollup@4.60.2)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)
+        version: 1.20.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(rollup@4.60.2)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)
       '@iconify-json/carbon':
         specifier: catalog:dev
         version: 1.2.26
@@ -72,7 +72,7 @@ importers:
         version: 7.0.8
       oxlint-plugin-qwik:
         specifier: catalog:lint
-        version: 0.0.9(oxlint@1.79.0(oxlint-tsgolint@7.0.2001)(vite-plus@0.3.0(@edge-runtime/vm@3.2.0)(@types/node@20.19.0)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.0)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)))
+        version: 0.0.9(oxlint@1.79.0(oxlint-tsgolint@7.0.2001)(vite-plus@0.3.0(@edge-runtime/vm@3.2.0)(@types/node@20.19.43)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)))
       typescript:
         specifier: catalog:types
         version: 5.4.5
@@ -81,10 +81,10 @@ importers:
         version: 5.2.0(ts-node@10.9.1(@types/node@20.19.43)(typescript@5.4.5))(typescript@5.4.5)
       unocss:
         specifier: catalog:dev
-        version: 66.6.8(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))
+        version: 66.6.8(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))
       vercel:
         specifier: catalog:build
-        version: 52.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.60.2)(typescript@5.4.5)
+        version: 52.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)(rollup@4.60.2)(typescript@5.4.5)
       vite:
         specifier: npm:@voidzero-dev/vite-plus-core@latest
         version: '@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)'
@@ -118,8 +118,8 @@ packages:
   '@blazediff/core@1.9.1':
     resolution: {integrity: sha512-ehg3jIkYKulZh+8om/O25vkvSsXXwC+skXmyA87FFx6A/45eqOkZsBltMw/TVteb0mloiGT8oGRTcjRAz66zaA==}
 
-  '@builder.io/qwik-city@1.19.2':
-    resolution: {integrity: sha512-RueRitP3EExdvxUTwIukknEkFmvW47/V8p9u3fUMv2S7tUryDC5hopklwBY5pGCohXy2h2WYURvEzN+OOOWeCQ==}
+  '@builder.io/qwik-city@1.20.0':
+    resolution: {integrity: sha512-gvw75M0yMDMelF/v56x4P1sLccEYT7jmfGZeWSV4c9KCrVAbY+Sp/w/R3c7WodGztWFRF37n1APXbbxhLIP6vw==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
 
   '@builder.io/qwik@1.19.2':
@@ -159,8 +159,8 @@ packages:
   '@emnapi/core@1.10.0':
     resolution: {integrity: sha512-yq6OkJ4p82CAfPl0u9mQebQHKPJkY7WrIuk205cTYnYe+k2Z8YBh11FrbRG/H6ihirqcacOgl2BIO8oyMQLeXw==}
 
-  '@emnapi/runtime@1.10.0':
-    resolution: {integrity: sha512-ewvYlk86xUoGI0zQRNq/mC+16R1QeDlKQy21Ki3oSYXNgLb45GV1P6A0M+/s6nyCuNDqe5VpaY84BzXGwVbwFA==}
+  '@emnapi/runtime@1.11.3':
+    resolution: {integrity: sha512-Xz4Tpyki7XyrpbUK1jR1AhdAdaXyhhY4lZ3neLodmhpuWfy2PAQN5B46sAiU4liOXGLkHypn/qU+jvfWSCYYLA==}
 
   '@emnapi/wasi-threads@1.2.1':
     resolution: {integrity: sha512-uTII7OYF+/Mes/MrcIOYp5yOtSMLBWSIoLPpcgwipoiKbli6k322tcoFsxoIIxPDqW01SQGAgko4EzZi2BNv2w==}
@@ -1434,8 +1434,8 @@ packages:
   '@rolldown/pluginutils@1.0.0-rc.1':
     resolution: {integrity: sha512-UTBjtTxVOhodhzFVp/ayITaTETRHPUPYZPXQe0WU0wOgxghMojXxYjOiPOauKIYNWJAWS2fd7gJgGQK8GU8vDA==}
 
-  '@rollup/pluginutils@5.3.0':
-    resolution: {integrity: sha512-5EdhGZtnu3V88ces7s53hhfK5KSASnJZv8Lulpc04cWO3REESroJXg73DFsOmgbU2BhwV0E20bu2IDZb3VKW4Q==}
+  '@rollup/pluginutils@5.4.0':
+    resolution: {integrity: sha512-MfPp06CjRLfXQ3wY0R8vJDYBy/MvVcc9OulEfR0B8Iv9ko+GCNaRZ+EpJYFl27LhKsZK0o420sYCRHCjfCgeUg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
@@ -1640,8 +1640,11 @@ packages:
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
-  '@types/hast@3.0.4':
-    resolution: {integrity: sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==}
+  '@types/estree@1.0.9':
+    resolution: {integrity: sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg==}
+
+  '@types/hast@3.0.5':
+    resolution: {integrity: sha512-rp/ezSWaD1m44dPKICGhiskI13nVr7qTloFwDa/IYkhhf5nzwP+zIQcIJh3WIFSBOy/H1PzB40jPjMDksN4F+g==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -1649,8 +1652,8 @@ packages:
   '@types/mdast@4.0.4':
     resolution: {integrity: sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA==}
 
-  '@types/mdx@2.0.13':
-    resolution: {integrity: sha512-+OWZQfAYyio6YkJb3HLxDrvnx6SWWDbC0zVPfBRzUk0/nqoDyf6dNxQi3eArPe8rJ473nobTMQ/8Zk+LxJ+Yuw==}
+  '@types/mdx@2.0.14':
+    resolution: {integrity: sha512-T48PeuJtvLosNTPVhfnIp3i/n3a4g4Bad7YCq5k64D4u7NwDrAotikQ+5+sjtUvBmxCMlbo3dVL+C2dP0rWHzg==}
 
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
@@ -1673,9 +1676,8 @@ packages:
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
 
-  '@ungap/structured-clone@1.3.0':
-    resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
-    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
+  '@ungap/structured-clone@1.4.0':
+    resolution: {integrity: sha512-1mEZtMKPM09vDmQt5y7YvmN2+DFTP7Tg0EWXdic8/C6VRnpb33e4ghisCIE3WZjsE2N8mf+QV1Zqh7ZFYLWInQ==}
 
   '@unocss/cli@66.6.8':
     resolution: {integrity: sha512-dJ4AmrhCtQwEDJtpFG7AgJ4Qi4GWnNgWWlLWq4DhKBOCcvldr9k98mscdhs3MOwph25DIxU5MdLRAg/OS1JryQ==}
@@ -2666,8 +2668,8 @@ packages:
   estree-util-is-identifier-name@3.0.0:
     resolution: {integrity: sha512-hFtqIDZTIUZ9BXLb8y4pYGyk6+wekIivNVTcmvk8NoOh+VeRn5y6cEHzbURrWbfp1fIqdVipilzj+lfaadNZmg==}
 
-  estree-util-scope@1.0.0:
-    resolution: {integrity: sha512-2CAASclonf+JFWBNJPndcOpA8EMJwa0Q8LUFJEKqXLW6+qBvbFZuF5gItbQOs/umBUkjviCSDCbBwU2cXbmrhQ==}
+  estree-util-scope@1.0.1:
+    resolution: {integrity: sha512-B0np3dcdxqILX5e9nEi5/Fr4K7gL4oYFVPV1zRa2e9wRCbQoZZNWOZFYyoInvXUPJXBXjss+QXlWLJChDEHDkA==}
 
   estree-util-to-js@2.0.0:
     resolution: {integrity: sha512-WDF+xj5rRWmD5tj6bIqRi6CkLIXbbNQUcxQHzGysQzvHmdYG2G7p/Tf0J0gpxGgkeMZNTIjT/AoSvC9Xehcgdg==}
@@ -3590,8 +3592,8 @@ packages:
   promisepipe@3.0.0:
     resolution: {integrity: sha512-V6TbZDJ/ZswevgkDNpGt/YqNCiZP9ASfgU+p83uJE6NrGtvSGoOcHLiDCqkMs2+yg7F5qHdLV8d0aS8O26G/KA==}
 
-  property-information@7.1.0:
-    resolution: {integrity: sha512-TwEZ+X+yCJmYfL7TPUOcvBZ4QfoT5YenQiJuX//0th53DE6w0xxLEtfK3iyryQFddXuvkIk51EEgrJQ0WJkOmQ==}
+  property-information@7.2.0:
+    resolution: {integrity: sha512-IAtzIB6sUiWaJYrX9smp3V46pBGbBeLFRGdh25kg1334VcBlD8HzhPeNIWQH9zhGmo2itIe25EHt9dQP7G5hmg==}
 
   proxy-agent@6.4.0:
     resolution: {integrity: sha512-u0piLU+nCOHMgGjRbimiXmA9kM/L9EHh3zL81xCdp7m+Y2pHIsnmbdDoEDoAz5geaonNR6q6+yOPQs6n4T6sBQ==}
@@ -3715,8 +3717,8 @@ packages:
   sax@1.3.0:
     resolution: {integrity: sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA==}
 
-  sax@1.6.0:
-    resolution: {integrity: sha512-6R3J5M4AcbtLUdZmRv2SygeVaM7IhrLXu9BmnOGmmACak8fiUtOsYNWUS4uK7upbmHIBbLBeFeI//477BKLBzA==}
+  sax@1.6.1:
+    resolution: {integrity: sha512-42tBVwLWnaQvW5zc4HbZrTuWccECCZfBi92FDuwtqxasH+JbPB3/FOKb1m222K42R4WxuxzzMsTswfzgtSu64Q==}
     engines: {node: '>=11.0.0'}
 
   semver@5.7.2:
@@ -3732,8 +3734,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  semver@7.7.4:
-    resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
+  semver@7.8.5:
+    resolution: {integrity: sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -3847,8 +3849,8 @@ packages:
     resolution: {integrity: sha512-v3YCf31atbwJQIMtPNX8hcQ+okD4NQaTuKGUWfII8eaqn+3otrbttGL1zSMZAAtiPsBztQnujVBugg/cXFUpyg==}
     hasBin: true
 
-  svgo@3.3.3:
-    resolution: {integrity: sha512-+wn7I4p7YgJhHs38k2TNjy1vCfPIfLIJWR5MnCStsN8WuuTcBnRKcMHQLMM2ijxGZmDoZwNv8ipl5aTTen62ng==}
+  svgo@3.3.5:
+    resolution: {integrity: sha512-8SQMzdrvWaD8deUmrnYB+ASyxBVgWUOilg+A75nE/76WdLpj6LopCwiAVvkzkcqy/9b7t2Mg7faFLjg0ZRcZ3w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -4009,12 +4011,12 @@ packages:
     resolution: {integrity: sha512-ZgpWDC5gmNiuY9CnLVXEH8rl50xhRCuLNA97fAUnKi8RRuV4E6KG31pDTsLVUKnohJE0I3XDrTeEydAXRw47xg==}
     engines: {node: '>=18.17'}
 
-  undici@7.25.0:
-    resolution: {integrity: sha512-xXnp4kTyor2Zq+J1FfPI6Eq3ew5h6Vl0F/8d9XU5zZQf1tX9s2Su1/3PiMmUANFULpmksxkClamIZcaUqryHsQ==}
+  undici@7.29.1:
+    resolution: {integrity: sha512-RYONW2MeafgYlkVOKYKkA/Ag7BmXqgIWCa8t1m0JcxrQg9pI9lEqRhAOruOBCbAohOa/gkCF+iPi9hrgvTzu6Q==}
     engines: {node: '>=20.18.1'}
 
-  undici@8.1.0:
-    resolution: {integrity: sha512-E9MkTS4xXLnRPYqxH2e6Hr2/49e7WFDKczKcCaFH4VaZs2iNvHMqeIkyUAD9vM8kujy9TjVrRlQ5KkdEJxB2pw==}
+  undici@8.10.2:
+    resolution: {integrity: sha512-/y4/bH9YNU5hi9NIrpOuvGXFcxrj3CMrV+/AYpowAYTpHn8gX/XPFjNy766FPoYY0miQhdW977JFWKGNhBdwyQ==}
     engines: {node: '>=22.19.0'}
 
   unified@11.0.5:
@@ -4078,8 +4080,8 @@ packages:
   v8-compile-cache-lib@3.0.1:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
 
-  valibot@1.3.1:
-    resolution: {integrity: sha512-sfdRir/QFM0JaF22hqTroPc5xy4DimuGQVKFrzF1YfGwaS1nJot3Y8VqMdLO2Lg27fMzat2yD3pY5PbAYO39Gg==}
+  valibot@1.4.2:
+    resolution: {integrity: sha512-gjdCvJ6d3RyHAneqxMYMW9QMCwYMb3jpOO0IyHZV1bnRHFBHrX3VkIILt5XYR0WhwHiH7Mty8ovuPZ/O3gamrg==}
     peerDependencies:
       typescript: '>=5'
     peerDependenciesMeta:
@@ -4236,14 +4238,14 @@ snapshots:
 
   '@blazediff/core@1.9.1': {}
 
-  '@builder.io/qwik-city@1.19.2(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(rollup@4.60.2)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)':
+  '@builder.io/qwik-city@1.20.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(rollup@4.60.2)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)':
     dependencies:
       '@mdx-js/mdx': 3.1.1
-      '@types/mdx': 2.0.13
+      '@types/mdx': 2.0.14
       source-map: 0.7.6
-      svgo: 3.3.3
-      undici: 8.1.0
-      valibot: 1.3.1(typescript@5.4.5)
+      svgo: 3.3.5
+      undici: 8.10.2
+      valibot: 1.4.2(typescript@5.4.5)
       vfile: 6.0.3
       vite: '@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)'
       vite-imagetools: 9.0.3(rollup@4.60.2)
@@ -4301,7 +4303,7 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@emnapi/runtime@1.10.0':
+  '@emnapi/runtime@1.11.3':
     dependencies:
       tslib: 2.8.1
     optional: true
@@ -4565,7 +4567,7 @@ snapshots:
 
   '@img/sharp-wasm32@0.34.5':
     dependencies:
-      '@emnapi/runtime': 1.10.0
+      '@emnapi/runtime': 1.11.3
     optional: true
 
   '@img/sharp-win32-arm64@0.34.5':
@@ -4619,7 +4621,7 @@ snapshots:
       https-proxy-agent: 7.0.6
       node-fetch: 2.7.0
       nopt: 8.1.0
-      semver: 7.7.4
+      semver: 7.8.5
       tar: 7.5.13
     transitivePeerDependencies:
       - encoding
@@ -4627,15 +4629,15 @@ snapshots:
 
   '@mdx-js/mdx@3.1.1':
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       '@types/estree-jsx': 1.0.5
-      '@types/hast': 3.0.4
-      '@types/mdx': 2.0.13
+      '@types/hast': 3.0.5
+      '@types/mdx': 2.0.14
       acorn: 8.18.0
       collapse-white-space: 2.1.0
       devlop: 1.1.0
       estree-util-is-identifier-name: 3.0.0
-      estree-util-scope: 1.0.0
+      estree-util-scope: 1.0.1
       estree-walker: 3.0.3
       hast-util-to-jsx-runtime: 2.3.6
       markdown-extensions: 2.0.0
@@ -4655,10 +4657,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@napi-rs/wasm-runtime@1.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)':
+  '@napi-rs/wasm-runtime@1.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)':
     dependencies:
       '@emnapi/core': 1.10.0
-      '@emnapi/runtime': 1.10.0
+      '@emnapi/runtime': 1.11.3
       '@tybys/wasm-util': 0.10.1
     optional: true
 
@@ -4722,9 +4724,9 @@ snapshots:
   '@oxc-parser/binding-openharmony-arm64@0.124.0':
     optional: true
 
-  '@oxc-parser/binding-wasm32-wasi@0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)':
+  '@oxc-parser/binding-wasm32-wasi@0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -4799,9 +4801,9 @@ snapshots:
   '@oxc-transform/binding-openharmony-arm64@0.111.0':
     optional: true
 
-  '@oxc-transform/binding-wasm32-wasi@0.111.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)':
+  '@oxc-transform/binding-wasm32-wasi@0.111.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -5049,9 +5051,9 @@ snapshots:
   '@rolldown/binding-openharmony-arm64@1.0.0-rc.1':
     optional: true
 
-  '@rolldown/binding-wasm32-wasi@1.0.0-rc.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)':
+  '@rolldown/binding-wasm32-wasi@1.0.0-rc.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -5065,9 +5067,9 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.0-rc.1': {}
 
-  '@rollup/pluginutils@5.3.0(rollup@4.60.2)':
+  '@rollup/pluginutils@5.4.0(rollup@4.60.2)':
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       estree-walker: 2.0.2
       picomatch: 4.0.7
     optionalDependencies:
@@ -5210,11 +5212,13 @@ snapshots:
 
   '@types/estree-jsx@1.0.5':
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
 
   '@types/estree@1.0.8': {}
 
-  '@types/hast@3.0.4':
+  '@types/estree@1.0.9': {}
+
+  '@types/hast@3.0.5':
     dependencies:
       '@types/unist': 3.0.3
 
@@ -5224,7 +5228,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/mdx@2.0.13': {}
+  '@types/mdx@2.0.14': {}
 
   '@types/ms@2.1.0': {}
 
@@ -5248,7 +5252,7 @@ snapshots:
 
   '@types/unist@3.0.3': {}
 
-  '@ungap/structured-clone@1.3.0': {}
+  '@ungap/structured-clone@1.4.0': {}
 
   '@unocss/cli@66.6.8':
     dependencies:
@@ -5346,11 +5350,11 @@ snapshots:
       '@unocss/core': 66.6.8
       magic-string: 0.30.21
 
-  '@unocss/transformer-attributify-jsx@66.6.8(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)':
+  '@unocss/transformer-attributify-jsx@66.6.8(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)':
     dependencies:
       '@unocss/core': 66.6.8
-      oxc-parser: 0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
-      oxc-walker: 0.7.0(oxc-parser@0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))
+      oxc-parser: 0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)
+      oxc-walker: 0.7.0(oxc-parser@0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3))
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -5382,7 +5386,7 @@ snapshots:
       unplugin-utils: 0.3.1
       vite: '@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)'
 
-  '@vercel/backends@0.2.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.60.2)(typescript@5.4.5)':
+  '@vercel/backends@0.2.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)(rollup@4.60.2)(typescript@5.4.5)':
     dependencies:
       '@vercel/build-utils': 13.20.0
       '@vercel/nft': 1.5.0(rollup@4.60.2)
@@ -5390,10 +5394,10 @@ snapshots:
       execa: 3.2.0
       fs-extra: 11.1.0
       js-yaml: 3.14.2
-      oxc-transform: 0.111.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      oxc-transform: 0.111.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)
       path-to-regexp: 8.3.0
       resolve.exports: 2.0.3
-      rolldown: 1.0.0-rc.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      rolldown: 1.0.0-rc.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)
       srvx: 0.8.9
       tsx: 4.21.0
       typescript: 5.4.5
@@ -5419,9 +5423,9 @@ snapshots:
       cjs-module-lexer: 1.2.3
       es-module-lexer: 1.5.0
 
-  '@vercel/cervel@0.0.55(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.60.2)(typescript@5.4.5)':
+  '@vercel/cervel@0.0.55(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)(rollup@4.60.2)(typescript@5.4.5)':
     dependencies:
-      '@vercel/backends': 0.2.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.60.2)(typescript@5.4.5)
+      '@vercel/backends': 0.2.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)(rollup@4.60.2)(typescript@5.4.5)
       typescript: 5.4.5
     transitivePeerDependencies:
       - '@emnapi/core'
@@ -5443,9 +5447,9 @@ snapshots:
 
   '@vercel/error-utils@2.0.3': {}
 
-  '@vercel/express@0.1.81(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.60.2)(typescript@5.4.5)':
+  '@vercel/express@0.1.81(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)(rollup@4.60.2)(typescript@5.4.5)':
     dependencies:
-      '@vercel/cervel': 0.0.55(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.60.2)(typescript@5.4.5)
+      '@vercel/cervel': 0.0.55(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)(rollup@4.60.2)(typescript@5.4.5)
       '@vercel/nft': 1.5.0(rollup@4.60.2)
       '@vercel/node': 5.7.13(rollup@4.60.2)
       '@vercel/static-config': 3.2.0
@@ -5565,7 +5569,7 @@ snapshots:
   '@vercel/nft@1.5.0(rollup@4.60.2)':
     dependencies:
       '@mapbox/node-pre-gyp': 2.0.3
-      '@rollup/pluginutils': 5.3.0(rollup@4.60.2)
+      '@rollup/pluginutils': 5.4.0(rollup@4.60.2)
       acorn: 8.18.0
       acorn-import-attributes: 1.9.5(acorn@8.18.0)
       async-sema: 3.1.1
@@ -5667,7 +5671,7 @@ snapshots:
       ms: 2.1.3
       picocolors: 1.1.1
       tar-stream: 3.1.7
-      undici: 7.25.0
+      undici: 7.29.1
       xdg-app-paths: 5.1.0
       zod: 3.24.4
     transitivePeerDependencies:
@@ -6357,7 +6361,7 @@ snapshots:
 
   estree-util-attach-comments@3.0.0:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
 
   estree-util-build-jsx@3.0.1:
     dependencies:
@@ -6368,9 +6372,9 @@ snapshots:
 
   estree-util-is-identifier-name@3.0.0: {}
 
-  estree-util-scope@1.0.0:
+  estree-util-scope@1.0.1:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       devlop: 1.1.0
 
   estree-util-to-js@2.0.0:
@@ -6388,7 +6392,7 @@ snapshots:
 
   estree-walker@3.0.3:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
 
   esutils@2.0.3: {}
 
@@ -6567,9 +6571,9 @@ snapshots:
 
   hast-util-to-estree@3.1.3:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       '@types/estree-jsx': 1.0.5
-      '@types/hast': 3.0.4
+      '@types/hast': 3.0.5
       comma-separated-tokens: 2.0.3
       devlop: 1.1.0
       estree-util-attach-comments: 3.0.0
@@ -6578,7 +6582,7 @@ snapshots:
       mdast-util-mdx-expression: 2.0.1
       mdast-util-mdx-jsx: 3.2.0
       mdast-util-mdxjs-esm: 2.0.1
-      property-information: 7.1.0
+      property-information: 7.2.0
       space-separated-tokens: 2.0.2
       style-to-js: 1.1.21
       unist-util-position: 5.0.0
@@ -6588,8 +6592,8 @@ snapshots:
 
   hast-util-to-jsx-runtime@2.3.6:
     dependencies:
-      '@types/estree': 1.0.8
-      '@types/hast': 3.0.4
+      '@types/estree': 1.0.9
+      '@types/hast': 3.0.5
       '@types/unist': 3.0.3
       comma-separated-tokens: 2.0.3
       devlop: 1.1.0
@@ -6598,7 +6602,7 @@ snapshots:
       mdast-util-mdx-expression: 2.0.1
       mdast-util-mdx-jsx: 3.2.0
       mdast-util-mdxjs-esm: 2.0.1
-      property-information: 7.1.0
+      property-information: 7.2.0
       space-separated-tokens: 2.0.2
       style-to-js: 1.1.21
       unist-util-position: 5.0.0
@@ -6608,7 +6612,7 @@ snapshots:
 
   hast-util-whitespace@3.0.0:
     dependencies:
-      '@types/hast': 3.0.4
+      '@types/hast': 3.0.5
 
   http-errors@1.7.3:
     dependencies:
@@ -6865,7 +6869,7 @@ snapshots:
   mdast-util-mdx-expression@2.0.1:
     dependencies:
       '@types/estree-jsx': 1.0.5
-      '@types/hast': 3.0.4
+      '@types/hast': 3.0.5
       '@types/mdast': 4.0.4
       devlop: 1.1.0
       mdast-util-from-markdown: 2.0.3
@@ -6876,7 +6880,7 @@ snapshots:
   mdast-util-mdx-jsx@3.2.0:
     dependencies:
       '@types/estree-jsx': 1.0.5
-      '@types/hast': 3.0.4
+      '@types/hast': 3.0.5
       '@types/mdast': 4.0.4
       '@types/unist': 3.0.3
       ccount: 2.0.1
@@ -6903,7 +6907,7 @@ snapshots:
   mdast-util-mdxjs-esm@2.0.1:
     dependencies:
       '@types/estree-jsx': 1.0.5
-      '@types/hast': 3.0.4
+      '@types/hast': 3.0.5
       '@types/mdast': 4.0.4
       devlop: 1.1.0
       mdast-util-from-markdown: 2.0.3
@@ -6918,9 +6922,9 @@ snapshots:
 
   mdast-util-to-hast@13.2.1:
     dependencies:
-      '@types/hast': 3.0.4
+      '@types/hast': 3.0.5
       '@types/mdast': 4.0.4
-      '@ungap/structured-clone': 1.3.0
+      '@ungap/structured-clone': 1.4.0
       devlop: 1.1.0
       micromark-util-sanitize-uri: 2.0.1
       trim-lines: 3.0.1
@@ -6981,7 +6985,7 @@ snapshots:
 
   micromark-extension-mdx-expression@3.0.1:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       devlop: 1.1.0
       micromark-factory-mdx-expression: 2.0.3
       micromark-factory-space: 2.0.1
@@ -6992,7 +6996,7 @@ snapshots:
 
   micromark-extension-mdx-jsx@3.0.2:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       devlop: 1.1.0
       estree-util-is-identifier-name: 3.0.0
       micromark-factory-mdx-expression: 2.0.3
@@ -7009,7 +7013,7 @@ snapshots:
 
   micromark-extension-mdxjs-esm@3.0.0:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.3
       micromark-util-character: 2.1.1
@@ -7045,7 +7049,7 @@ snapshots:
 
   micromark-factory-mdx-expression@2.0.3:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       devlop: 1.1.0
       micromark-factory-space: 2.0.1
       micromark-util-character: 2.1.1
@@ -7109,7 +7113,7 @@ snapshots:
 
   micromark-util-events-to-acorn@2.0.3:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       '@types/unist': 3.0.3
       devlop: 1.1.0
       estree-util-visit: 2.0.0
@@ -7226,7 +7230,7 @@ snapshots:
   needle@3.5.0:
     dependencies:
       iconv-lite: 0.6.3
-      sax: 1.6.0
+      sax: 1.6.1
     optional: true
 
   netmask@2.1.1: {}
@@ -7284,7 +7288,7 @@ snapshots:
 
   os-paths@4.4.0: {}
 
-  oxc-parser@0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0):
+  oxc-parser@0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3):
     dependencies:
       '@oxc-project/types': 0.124.0
     optionalDependencies:
@@ -7304,7 +7308,7 @@ snapshots:
       '@oxc-parser/binding-linux-x64-gnu': 0.124.0
       '@oxc-parser/binding-linux-x64-musl': 0.124.0
       '@oxc-parser/binding-openharmony-arm64': 0.124.0
-      '@oxc-parser/binding-wasm32-wasi': 0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      '@oxc-parser/binding-wasm32-wasi': 0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)
       '@oxc-parser/binding-win32-arm64-msvc': 0.124.0
       '@oxc-parser/binding-win32-ia32-msvc': 0.124.0
       '@oxc-parser/binding-win32-x64-msvc': 0.124.0
@@ -7312,7 +7316,7 @@ snapshots:
       - '@emnapi/core'
       - '@emnapi/runtime'
 
-  oxc-transform@0.111.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0):
+  oxc-transform@0.111.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3):
     optionalDependencies:
       '@oxc-transform/binding-android-arm-eabi': 0.111.0
       '@oxc-transform/binding-android-arm64': 0.111.0
@@ -7330,7 +7334,7 @@ snapshots:
       '@oxc-transform/binding-linux-x64-gnu': 0.111.0
       '@oxc-transform/binding-linux-x64-musl': 0.111.0
       '@oxc-transform/binding-openharmony-arm64': 0.111.0
-      '@oxc-transform/binding-wasm32-wasi': 0.111.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      '@oxc-transform/binding-wasm32-wasi': 0.111.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)
       '@oxc-transform/binding-win32-arm64-msvc': 0.111.0
       '@oxc-transform/binding-win32-ia32-msvc': 0.111.0
       '@oxc-transform/binding-win32-x64-msvc': 0.111.0
@@ -7338,10 +7342,10 @@ snapshots:
       - '@emnapi/core'
       - '@emnapi/runtime'
 
-  oxc-walker@0.7.0(oxc-parser@0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)):
+  oxc-walker@0.7.0(oxc-parser@0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)):
     dependencies:
       magic-regexp: 0.10.0
-      oxc-parser: 0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      oxc-parser: 0.124.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)
 
   oxfmt@0.64.0(vite-plus@0.3.0(@edge-runtime/vm@3.2.0)(@types/node@20.19.43)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)):
     dependencies:
@@ -7368,10 +7372,10 @@ snapshots:
       '@oxfmt/binding-win32-x64-msvc': 0.64.0
       vite-plus: 0.3.0(@edge-runtime/vm@3.2.0)(@types/node@20.19.43)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)
 
-  oxlint-plugin-qwik@0.0.9(oxlint@1.79.0(oxlint-tsgolint@7.0.2001)(vite-plus@0.3.0(@edge-runtime/vm@3.2.0)(@types/node@20.19.0)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.0)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))):
+  oxlint-plugin-qwik@0.0.9(oxlint@1.79.0(oxlint-tsgolint@7.0.2001)(vite-plus@0.3.0(@edge-runtime/vm@3.2.0)(@types/node@20.19.43)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))):
     dependencies:
       '@oxlint/plugins': 1.79.0
-      oxlint: 1.79.0(oxlint-tsgolint@7.0.2001)(vite-plus@0.3.0(@edge-runtime/vm@3.2.0)(@types/node@20.19.0)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.0)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))
+      oxlint: 1.79.0(oxlint-tsgolint@7.0.2001)(vite-plus@0.3.0(@edge-runtime/vm@3.2.0)(@types/node@20.19.43)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))
       pathe: 2.0.3
 
   oxlint-tsgolint@7.0.2001:
@@ -7541,7 +7545,7 @@ snapshots:
 
   promisepipe@3.0.0: {}
 
-  property-information@7.1.0: {}
+  property-information@7.2.0: {}
 
   proxy-agent@6.4.0:
     dependencies:
@@ -7587,7 +7591,7 @@ snapshots:
 
   recma-build-jsx@1.0.0:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       estree-util-build-jsx: 3.0.1
       vfile: 6.0.3
 
@@ -7602,14 +7606,14 @@ snapshots:
 
   recma-parse@1.0.0:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       esast-util-from-js: 2.0.1
       unified: 11.0.5
       vfile: 6.0.3
 
   recma-stringify@1.0.0:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       estree-util-to-js: 2.0.0
       unified: 11.0.5
       vfile: 6.0.3
@@ -7618,8 +7622,8 @@ snapshots:
 
   rehype-recma@1.0.0:
     dependencies:
-      '@types/estree': 1.0.8
-      '@types/hast': 3.0.4
+      '@types/estree': 1.0.9
+      '@types/hast': 3.0.5
       hast-util-to-estree: 3.1.3
     transitivePeerDependencies:
       - supports-color
@@ -7642,7 +7646,7 @@ snapshots:
 
   remark-rehype@11.1.2:
     dependencies:
-      '@types/hast': 3.0.4
+      '@types/hast': 3.0.5
       '@types/mdast': 4.0.4
       mdast-util-to-hast: 13.2.1
       unified: 11.0.5
@@ -7662,7 +7666,7 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  rolldown@1.0.0-rc.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0):
+  rolldown@1.0.0-rc.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3):
     dependencies:
       '@oxc-project/types': 0.110.0
       '@rolldown/pluginutils': 1.0.0-rc.1
@@ -7677,7 +7681,7 @@ snapshots:
       '@rolldown/binding-linux-x64-gnu': 1.0.0-rc.1
       '@rolldown/binding-linux-x64-musl': 1.0.0-rc.1
       '@rolldown/binding-openharmony-arm64': 1.0.0-rc.1
-      '@rolldown/binding-wasm32-wasi': 1.0.0-rc.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      '@rolldown/binding-wasm32-wasi': 1.0.0-rc.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)
       '@rolldown/binding-win32-arm64-msvc': 1.0.0-rc.1
       '@rolldown/binding-win32-x64-msvc': 1.0.0-rc.1
     transitivePeerDependencies:
@@ -7742,7 +7746,7 @@ snapshots:
   sax@1.3.0:
     optional: true
 
-  sax@1.6.0: {}
+  sax@1.6.1: {}
 
   semver@5.7.2:
     optional: true
@@ -7753,7 +7757,7 @@ snapshots:
     dependencies:
       lru-cache: 6.0.0
 
-  semver@7.7.4: {}
+  semver@7.8.5: {}
 
   setprototypeof@1.1.1: {}
 
@@ -7761,7 +7765,7 @@ snapshots:
     dependencies:
       '@img/colour': 1.1.0
       detect-libc: 2.1.2
-      semver: 7.7.4
+      semver: 7.8.5
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.34.5
       '@img/sharp-darwin-x64': 0.34.5
@@ -7891,7 +7895,7 @@ snapshots:
       - supports-color
     optional: true
 
-  svgo@3.3.3:
+  svgo@3.3.5:
     dependencies:
       commander: 7.2.0
       css-select: 5.2.2
@@ -7899,7 +7903,7 @@ snapshots:
       css-what: 6.2.2
       csso: 5.0.5
       picocolors: 1.1.1
-      sax: 1.6.0
+      sax: 1.6.1
 
   tar-stream@3.1.7:
     dependencies:
@@ -8071,9 +8075,9 @@ snapshots:
 
   undici@6.25.0: {}
 
-  undici@7.25.0: {}
+  undici@7.29.1: {}
 
-  undici@8.1.0: {}
+  undici@8.10.2: {}
 
   unified@11.0.5:
     dependencies:
@@ -8114,7 +8118,7 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  unocss@66.6.8(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)):
+  unocss@66.6.8(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.6.1)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)):
     dependencies:
       '@unocss/cli': 66.6.8
       '@unocss/core': 66.6.8
@@ -8128,7 +8132,7 @@ snapshots:
       '@unocss/preset-wind': 66.6.8
       '@unocss/preset-wind3': 66.6.8
       '@unocss/preset-wind4': 66.6.8
-      '@unocss/transformer-attributify-jsx': 66.6.8(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      '@unocss/transformer-attributify-jsx': 66.6.8(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)
       '@unocss/transformer-compile-class': 66.6.8
       '@unocss/transformer-directives': 66.6.8
       '@unocss/transformer-variant-group': 66.6.8
@@ -8161,18 +8165,18 @@ snapshots:
   v8-compile-cache-lib@3.0.1:
     optional: true
 
-  valibot@1.3.1(typescript@5.4.5):
+  valibot@1.4.2(typescript@5.4.5):
     optionalDependencies:
       typescript: 5.4.5
 
-  vercel@52.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.60.2)(typescript@5.4.5):
+  vercel@52.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)(rollup@4.60.2)(typescript@5.4.5):
     dependencies:
-      '@vercel/backends': 0.2.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.60.2)(typescript@5.4.5)
+      '@vercel/backends': 0.2.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)(rollup@4.60.2)(typescript@5.4.5)
       '@vercel/blob': 2.3.0
       '@vercel/build-utils': 13.20.0
       '@vercel/detect-agent': 1.2.3
       '@vercel/elysia': 0.1.71(rollup@4.60.2)
-      '@vercel/express': 0.1.81(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.60.2)(typescript@5.4.5)
+      '@vercel/express': 0.1.81(@emnapi/core@1.10.0)(@emnapi/runtime@1.11.3)(rollup@4.60.2)(typescript@5.4.5)
       '@vercel/fastify': 0.1.74(rollup@4.60.2)
       '@vercel/fun': 1.3.0
       '@vercel/go': 3.5.0
@@ -8220,7 +8224,7 @@ snapshots:
 
   vite-imagetools@9.0.3(rollup@4.60.2):
     dependencies:
-      '@rollup/pluginutils': 5.3.0(rollup@4.60.2)
+      '@rollup/pluginutils': 5.4.0(rollup@4.60.2)
       imagetools-core: 9.1.0
       sharp: 0.34.5
     transitivePeerDependencies:
