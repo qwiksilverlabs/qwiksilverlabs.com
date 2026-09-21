@@ -10,8 +10,8 @@ catalogs:
       specifier: ^59.0.0
       version: 59.23.2
     vite-tsconfig-paths:
-      specifier: ^4.3.2
-      version: 4.3.2
+      specifier: ^6.0.0
+      version: 6.1.1
   default:
     vite-plus:
       specifier: latest
@@ -93,7 +93,7 @@ importers:
         version: 0.3.3(@edge-runtime/vm@3.2.0)(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.7.0)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)
       vite-tsconfig-paths:
         specifier: catalog:build
-        version: 4.3.2(@voidzero-dev/vite-plus-core@0.3.3(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.7.0)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))(typescript@5.4.5)
+        version: 6.1.1(@voidzero-dev/vite-plus-core@0.3.3(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.7.0)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))(typescript@5.4.5)
 
 packages:
 
@@ -4343,13 +4343,10 @@ packages:
       '@vitest/browser-webdriverio':
         optional: true
 
-  vite-tsconfig-paths@4.3.2:
-    resolution: {integrity: sha512-0Vd/a6po6Q+86rPlntHye7F31zA2URZMbH8M3saAZ/xR9QoGN/L21bxEGfXdWmFdNkqPpRdxFT7nmNe12e9/uA==}
+  vite-tsconfig-paths@6.1.1:
+    resolution: {integrity: sha512-2cihq7zliibCCZ8P9cKJrQBkfgdvcFkOOc3Y02o3GWUDLgqjWsZudaoiuOwO/gzTzy17cS5F7ZPo4bsnS4DGkg==}
     peerDependencies:
       vite: '*'
-    peerDependenciesMeta:
-      vite:
-        optional: true
 
   web-vitals@0.2.4:
     resolution: {integrity: sha512-6BjspCO9VriYy12z356nL6JBS0GYeEcA457YyRzD+dD6XYCQ75NKhcOHUMHentOE7OcVCIXXDvOm0jKFfQG2Gg==}
@@ -8673,12 +8670,11 @@ snapshots:
       - utf-8-validate
       - yaml
 
-  vite-tsconfig-paths@4.3.2(@voidzero-dev/vite-plus-core@0.3.3(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.7.0)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))(typescript@5.4.5):
+  vite-tsconfig-paths@6.1.1(@voidzero-dev/vite-plus-core@0.3.3(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.7.0)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3))(typescript@5.4.5):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@5.4.5)
-    optionalDependencies:
       vite: '@voidzero-dev/vite-plus-core@0.3.3(@types/node@20.19.43)(esbuild@0.27.7)(jiti@2.7.0)(less@4.6.4)(sass@1.99.0)(stylus@0.62.0)(tsx@4.21.0)(typescript@5.4.5)(yaml@2.8.3)'
     transitivePeerDependencies:
       - supports-color

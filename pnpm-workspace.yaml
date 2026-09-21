@@ -8,7 +8,7 @@ allowBuilds:
 catalogs:
   build:
     'vite': npm:@voidzero-dev/vite-plus-core@latest
-    'vite-tsconfig-paths': '^4.3.2'
+    'vite-tsconfig-paths': '^6.0.0'
     'vercel': '^59.0.0'
   dev:
     '@builder.io/qwik': '^1.19.2'
