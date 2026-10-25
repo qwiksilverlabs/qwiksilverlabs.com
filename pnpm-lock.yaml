@@ -28,7 +28,7 @@ catalogs:
       version: 1.2.29
     ignore:
       specifier: ^7.0.5
-      version: 7.0.12
+      version: 7.0.14
     unocss:
       specifier: ^66.6.8
       version: 66.11.0
@@ -69,7 +69,7 @@ importers:
         version: 26.6.5
       ignore:
         specifier: catalog:dev
-        version: 7.0.12
+        version: 7.0.14
       oxlint-plugin-qwik:
         specifier: catalog:lint
         version: 0.0.9(oxlint@1.89.0(oxlint-tsgolint@7.0.2004)(vite-plus@1.4.0(@edge-runtime/vm@3.2.0)(@types/node@26.6.5)(esbuild@0.27.7)(jiti@2.7.0)(less@4.9.1)(sass@1.106.1)(stylus@0.62.0)(tsx@4.21.0)(typescript@7.0.2)(yaml@2.8.3)))
@@ -3188,8 +3188,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  ignore@7.0.12:
-    resolution: {integrity: sha512-/8UvqAPU9DGTI9k4mxtf49U37Isfwr8Uts96+SBHIkFxPJnHS0Ew4f00sM4Scd8V8EjM0jUNtVDdv1kPdt35lg==}
+  ignore@7.0.14:
+    resolution: {integrity: sha512-wCBiZ77u1tuWde6G/nfOtLaCTYcFDU5yCzARzK10y+rLhzYoL7a7yEemcopcc2Mzow7gZOIjnV2ym1NYmdiJOQ==}
     engines: {node: '>= 4'}
 
   imagetools-core@9.1.0:
@@ -7153,7 +7153,7 @@ snapshots:
     dependencies:
       postcss: 8.5.31
 
-  ignore@7.0.12: {}
+  ignore@7.0.14: {}
 
   imagetools-core@9.1.0: {}
 
